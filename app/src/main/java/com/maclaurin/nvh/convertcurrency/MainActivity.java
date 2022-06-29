@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         String amountInPounds = editText.getText().toString();
         String amountInUsd = String.format("%.2f", Double.parseDouble(amountInPounds) * 1.3)  ;
         Toast.makeText(this, amountInPounds +"£ = " + amountInUsd +"$", Toast.LENGTH_SHORT).show();
-        Toast.
+
     }
 
         
